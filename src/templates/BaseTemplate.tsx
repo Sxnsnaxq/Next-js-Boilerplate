@@ -8,7 +8,6 @@ export const BaseTemplate = (props: {
 }) => {
   return (
     <div className="w-full text-gray-700 antialiased">
-      {/* Main Content */}
       <div className="mx-auto max-w-screen-md">
         <header className="border-b border-gray-300">
           <div className="pb-8 pt-16">
@@ -35,7 +34,6 @@ export const BaseTemplate = (props: {
         <main>{props.children}</main>
       </div>
 
-      {/* Full Width Footer */}
       <footer className="m-0 w-full bg-purple-700 p-8 text-white">
         <div className="mx-auto grid max-w-screen-xl grid-cols-1 gap-8 md:grid-cols-4">
           <div>
@@ -102,7 +100,6 @@ export const BaseTemplate = (props: {
           </div>
         </div>
 
-        {/* ข้อความลิขสิทธิ์ */}
         <div className="mt-8 text-center text-sm text-gray-300">
           ©
           {' '}
